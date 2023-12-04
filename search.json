@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ReproducibiliTea Sheffield Journal Club 2023-12-06",
+    "section": "",
+    "text": "ns-rse.github.io/quarto-revealjs-template"
+  },
+  {
+    "objectID": "index.html#scan-this",
+    "href": "index.html#scan-this",
+    "title": "ReproducibiliTea Sheffield Journal Club 2023-12-06",
+    "section": "",
+    "text": "ns-rse.github.io/quarto-revealjs-template"
+  },
+  {
+    "objectID": "index.html#high-replicability-of-newly-discovered-social-behavioural-findings-is-achievable.-10.1038s41562-023-01749-9",
+    "href": "index.html#high-replicability-of-newly-discovered-social-behavioural-findings-is-achievable.-10.1038s41562-023-01749-9",
+    "title": "ReproducibiliTea Sheffield Journal Club 2023-12-06",
+    "section": "High replicability of newly discovered social-behavioural findings is achievable. 10.1038/s41562-023-01749-9",
+    "text": "High replicability of newly discovered social-behavioural findings is achievable. 10.1038/s41562-023-01749-9\n\nFailures to replicate evidence of new discoveries have forced scientists to ask whether this unreliability is due to suboptimal implementation of methods or whether presumptively optimal methods are not, in fact, optimal. This paper reports an investigation by four coordinated laboratories of the prospective replicability of 16 novel experimental findings using rigour-enhancing practices: confirmatory tests, large sample sizes, preregistration and methodological transparency. In contrast to past systematic replication efforts that reported replication rates averaging 50%, replication attempts here produced the expected effects with significance testing (P &lt; 0.05) in 86% of attempts, slightly exceeding the maximum expected replicability based on observed effect sizes and sample sizes. When one lab attempted to replicate an effect discovered by another lab, the effect size in the replications was 97% that in the original study. This high replication rate justifies confidence in rigour-enhancing methods to increase the replicability of new discoveries.\n\n\nThis is the abstract for today’s paper."
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "ReproducibiliTea Sheffield Journal Club 2023-12-06",
+    "section": "Overview",
+    "text": "Overview\n\nFour psychology laboratories.\nEach conducted Pilot Studies &gt; Self-Confirmatory &gt; Replication\nPrior experience of replication efforts.\nStudy criteria…\n\nTwo-group between subject manipulation\nOne dependent variable\nAdministered via computer online to adults in single 20 minutes\n\n\n\nSlides can have columns and we can create unordered lists."
+  },
+  {
+    "objectID": "index.html#reults",
+    "href": "index.html#reults",
+    "title": "ReproducibiliTea Sheffield Journal Club 2023-12-06",
+    "section": "Reults",
+    "text": "Reults\n\n\n\nFigure 1 : Effect size estimates and 95% CI from 16 new discoveries with four replications each."
+  },
+  {
+    "objectID": "index.html#good",
+    "href": "index.html#good",
+    "title": "ReproducibiliTea Sheffield Journal Club 2023-12-06",
+    "section": "Good",
+    "text": "Good\n\nPilot studies pre-registered (procedure, hypothesis, analysis plan, exclusions) /before/ data collection.\nLarge sample size\nClear protocols produced for sharing"
+  },
+  {
+    "objectID": "index.html#unusual",
+    "href": "index.html#unusual",
+    "title": "ReproducibiliTea Sheffield Journal Club 2023-12-06",
+    "section": "Unusual",
+    "text": "Unusual\n\nNot all pilots proceeded to confirmation/replication (selection bias?)\nClear protocols still need clarification in many cases (only 14/48 29% remained independent)\nNull confirmatory that had significant results in confirmatory was counted as successful replication?!?!. Prediction, Redemption and Misreporting (Bak-Coleman & Devezer)\nReplication estimate of 86% is across all studies, normally meta-analysis is conducted within study to say whether it replicates. (Bak-Coleman & Devezer)\n\n\nThe paper states that there was a pilot phase for all of the studies, but not all pilots proceeded to the self-confirmatory or replication stage. This suggests there may be some selection bias in the studies that were used as a basis for estimating replication. I would have preferred to have seen a set of hypotheses (16 or more) randomised to each of the four centers.\nI also found it surprising that whilst protocols were pre-registered there was a high number of centers seeking additional information 34 out of 48 replications sought clarification with only 14 (29%) not seeking any. It was mostly UVA who refrained from seeking clarification. Does state that many were trivial but not always the case. Whether this was deliberate through a strict adherence to the meta-protocol or lack of detail/understanding on the behalf of others is unclear.\nConfirmatory tests that were null and subsequently reached significance in self/independent replication were counted as replication which is bizzare, I would have expected replication to be demonstrating the same result as the original effect size. Strangely they focus on the 13 self-confirmatory that were positive and then assess replication as being 90% in that subset, but ignore the three where the self-confirmatory was null and subsequent replication!\nNormally replication is via meta-analysis within hypotheses, not across, so this estimate is likely not representative of how effective the practices are."
+  },
+  {
+    "objectID": "index.html#unsurprising",
+    "href": "index.html#unsurprising",
+    "title": "ReproducibiliTea Sheffield Journal Club 2023-12-06",
+    "section": "Unsurprising",
+    "text": "Unsurprising\n\nLarge sample sizes give more robust findings.\nReplication requires clear and accurate protocols.\nUseful to get clarification when protocols aren’t clear.\n\n\n\nIts not surprising to me to find out that large sample sizes give more robust findings, this is fairly basic statistics as you are less prone to sampling bias when you have a larger sample size.\nNot overly surprising that replication requires clear and accurate protcols to be pre-registered either, researchers need to know what others have done in sufficient detail. Its good that clarification was available when required and this should be the norm, but how often do authors/researchers contact authors seeking clarification and not hear anything back?"
+  },
+  {
+    "objectID": "index.html#links",
+    "href": "index.html#links",
+    "title": "ReproducibiliTea Sheffield Journal Club 2023-12-06",
+    "section": "Links",
+    "text": "Links\n\nHigh replicability of newly discovered social-behavioural findings is achievable. 10.1038/s41562-023-01749-9\nCausal claims about scientific rigor require rigorous causal evidence 10.31234/osf.io/5u3kj"
+  }
+]
