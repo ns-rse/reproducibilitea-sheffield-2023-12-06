@@ -1,0 +1,38 @@
+#+STARTUP: align
+#+FILENAME: notes.org
+#+TITLE: Reproducibilitea Sheffield 2023-12-06
+#+AUTHOR: Neil Shephard
+#+email: nshephard@gmail.com
+#+PROPERTY: header-args:R :session *training-R*
+#+PROPERTY: header-args:R+ :cache no :tangle yes
+#+PROPERTY: header-args:R+ :width 1024 :height 768
+#+SETUPFILE: export/setup/theme-solarized-dark-local.setup
+
+
+Notes on reading [[https://www.nature.com/articles/s41562-023-01749-9][High replicability of newly discovered social-behavioural findings is achievable | Nature Human
+Behaviour]].
+
+* Methods
++ Four centres with experience in replication of their own work and replicating others.
++ Only 14/48 (29%) /didn't/ remained fully independent, i.e. lots sought clarification on methodology. Noteable that UVA
+  didn't seek _any_ information during replication at all. Berkley sought the most but did they get it, not clear?.
++ Diverse range of topics (see [[https://www.nature.com/articles/s41562-023-01749-9/tables/1][table 1]]) but not clear which centre conducted which study in the paper, you have to
+  follow the links to each citation.
++ **GOOD** pilots were pre-registered procedure, hypotheses, analysis plan and exclusions /before/ data collection.
++ **BAD** Not clear what sample size was used in pilots for selection of hypotheses to take forward to
+  self-confirmation.
++ **UNUSUAL** Why were pilots replicated rather than /Pilot > Study > Replication/ ? In essence they cherry picked what
+  pilot studies would go forward, states "/Not every pilot study the labs conducted was put forward for confirmation and
+  replication/" so there is some bias here in selecting what studies are put forward for replication (both internally
+  and externally), would replication rates have been as high if /all/ studies that were piloted were followed up?
+  Probably not.
+
+* Results
+
++ Surprising that the self-confirmatory step had such high rates of statistical significance 13/16 (81%), evidence of
+  selection bias as noted above?
++ Why include self-confirmatory tests in "replication"?
++ **UNUSUAL** Bizzare that the three non-significant confirmatory tests there was such a high rate of statistical significance in
+  the self-replication and independent replication?
++ Don't understand why they have tried to quantify the between phenomena variation in effect sizes, its quite natural to
+  expect that different behaviours etc. have different effect sizes.

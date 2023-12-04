@@ -1,11 +1,11 @@
----
-title: "Template Revealjs Quarto site"
+ ---
+title: "ReproducibiliTea Sheffield Journal Club 2023-12-06"
 # format: revealjs
 author:
-  - name: Your Name
-    orcid: 0000-0000-0000-0000
-    email: email@address.work
-    affiliations: Employers Name
+  - name: Neil Shephard
+    orcid: 0000-0001-8301-6857
+    email: n.shephard@sheffield.ac.uk
+    affiliations: RSE, The University of Sheffield
 from: markdown+emoji
 format:
   clean-revealjs:
@@ -18,7 +18,7 @@ format:
     # standalone: true
 revealjs-plugins:
   - confetti
-footer: "**Slides** : [**github-username.github.io/<repository>**](https://github-username.github.io/<repository>)"
+footer: "**Slides** : [**ns-rse.github.io/reproducibilitea-sheffield-2023-12-06**](https://ns-rse.github.io/reproducibilitea-sheffield-2023-12-06)"
 project:
   preview:
     port: 7864
@@ -28,305 +28,111 @@ project:
 
 ## Scan This!
 
-{{< qrcode https://ns-rse.github.io/quarto-revealjs-template qr1 width=400 height=400 >}}
+{{< qrcode https://ns-rse.github.io/reproducibilitea-sheffield-2023-12-06https://ns-rse.github.io/quarto-revealjs-template qr1 width=400 height=400 >}}
 
 [ns-rse.github.io/quarto-revealjs-template](https://ns-rse.github.io/quarto-revealjs-template)
 
-## Quarto RevealJS Slides
+## High replicability of newly discovered social-behavioural findings is achievable. [10.1038/s41562-023-01749-9](https://doi.org/10.1038/s41562-023-01749-9)
 
-This is a [Quarto](https://quarto.org/) template for creating [RevealJS](https://revealjs.com/) slides.
+> Failures to replicate evidence of new discoveries have forced scientists to ask whether this unreliability is due to
+> suboptimal implementation of methods or whether presumptively optimal methods are not, in fact, optimal. This paper
+> reports an investigation by four coordinated laboratories of the prospective replicability of 16 novel experimental
+> findings using rigour-enhancing practices: confirmatory tests, large sample sizes, preregistration and methodological
+> transparency. In contrast to past systematic replication efforts that reported replication rates averaging 50%,
+> replication attempts here produced the expected effects with significance testing (P < 0.05) in 86% of attempts,
+> slightly exceeding the maximum expected replicability based on observed effect sizes and sample sizes. When one lab
+> attempted to replicate an effect discovered by another lab, the effect size in the replications was 97% that in the
+> original study. This high replication rate justifies confidence in rigour-enhancing methods to increase the
+> replicability of new discoveries.
 
-The template can be used as a starting point for your own slides and includes a number of different layouts and examples
-of Markdown syntax, slide layout, links, embedding images and configuration options.
-
-## Formatting
-
-Quarto slides are written in [Markdown](https://quarto.org/docs/authoring/markdown-basics.html).
-
-| Markdown Syntax                              | Output                                |
-|:---------------------------------------------|:--------------------------------------|
-| `*italics*`, `**bold**`, `***bolditalics***` | *italics*, **bold**, **bold italics** |
-| `superscript^1^`, `subscript~2~`             | superscript^1^, subscript~2~          |
-| `~~strikethrough~~`                          | ~~strikethrough~~                     |
-| ```code```                                   | `code`                                |
-| `[Quarto](https://quarto.org)`               | [Quarto](https://quarto.org)          |
 
 ::: {.notes}
-Speaker Notes can be added to each slide. **Formatting** can be used here too.
+This is the abstract for today's paper.
 :::
 
-## Columns and Lists
+## Overview
 
-Slides can have columns and you can create [lists](https://quarto.org/docs/authoring/markdown-basics.html#lists) of
-different types.
-
-:::: {.columns}
-
-::: {.column width="50%"}
-**ToDo** (code)
-
-```markdown
-+ Learn Markdown
-+ Create Quarto Slides
-+ Publish on GitHub
-```
-
-:::
-
-::: {.column width="50%"}
-**ToDo** (Rendered)
-
-+ Learn Markdown
-+ Create Quarto Slides
-+ Publish on GitHub
-
-:::
-::::
++ Four psychology laboratories.
++ Each conducted Pilot Studies > Self-Confirmatory > Replication
++ Prior experience of replication efforts.
++ Study criteria...
+  + Two-group between subject manipulation
+  + One dependent variable
+  + Administered via computer online to adults in single 20 minutes
 
 ::: {.notes}
 Slides can have columns and we can create unordered lists.
 :::
 
-## Columns and Lists (cont.)
+## Reults
 
-:::: {.columns}
+![[Figure 1 : Effect size estimates and 95% CI from 16 new discoveries with four replications
+each.](https://www.nature.com/articles/s41562-023-01749-9/figures/1)](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41562-023-01749-9/MediaObjects/41562_2023_1749_Fig1_HTML.png?as=webp)
 
-::: {.column width="50%"}
-**Ordered** (code)
 
-```markdown
-1. A comes before
-2. B which is followed by
-3. C
-```
+## Good
 
-:::
 
-::: {.column width="50%"}
-**Ordered** (Rendered)
+1. Pilot studies pre-registered (procedure, hypothesis, analysis plan, exclusions) /before/ data collection.
+2. Large sample size
+3. Clear protocols produced for sharing
 
-1. A comes before
-2. B which is followed by
-3. C
 
-:::
-::::
+## Unusual
 
-::: {.notes}
-Or ordered lists.
-:::
+1. Not all pilots proceeded to confirmation/replication (selection bias?)
+2. Clear protocols still need clarification in many cases (only 14/48 29% remained independent)
+3. Null confirmatory that had significant results in confirmatory was counted as successful
+   replication?!?!. _Prediction_, _Redemption_ and _Misreporting_ ([Bak-Coleman &
+   Devezer](https://europepmc.org/article/PPR/PPR763078))
+4. Replication estimate of 86% is across all studies, normally meta-analysis is conducted within study to say whether it
+   replicates.  ([Bak-Coleman & Devezer](https://europepmc.org/article/PPR/PPR763078))
 
-## Tables
 
-You can manually add [tables](https://quarto.org/docs/authoring/markdown-basics.html#tables).
-
-:::: {.columns}
-
-::: {.column width="50%"}
-
-```markdown
-| Right | Left | Default | Center |
-|------:|:-----|---------|:------:|
-|   12  |  12  |    12   |    12  |
-|  123  |  123 |   123   |   123  |
-|    1  |    1 |     1   |     1  |
-```
-
-:::
-::: {.column width="50%"}
-
-| Right | Left | Default | Center |
-|------:|:-----|---------|:------:|
-|   12  |  12  |    12   |    12  |
-|  123  |  123 |   123   |   123  |
-|    1  |    1 |     1   |     1  |
-
-:::
-::::
 
 ::: {.notes}
-Tables can be added, but there is a better way to include these programatically
+The paper states that there was a pilot phase for all of the studies, but not all pilots proceeded to the
+self-confirmatory or replication stage. This suggests there may be some selection bias in the studies that were used as
+a basis for estimating replication. I would have preferred to have seen a set of hypotheses (16 or more) randomised to
+each of the four centers.
+
+I also found it surprising that whilst protocols were pre-registered there was a high number of centers seeking
+additional information 34 out of 48 replications sought clarification with only 14 (29%) not seeking any. It was mostly
+UVA who refrained from seeking clarification. Does state that many were trivial but not always the case. Whether this
+was deliberate through a strict adherence to the meta-protocol or lack of detail/understanding on the behalf of others
+is unclear.
+
+Confirmatory tests that were null and subsequently reached significance in self/independent replication were counted as
+replication which is bizzare, I would have expected replication to be demonstrating the same result as the original
+effect size. Strangely they focus on the 13 self-confirmatory that were positive and then assess replication as being
+90% in that subset, but ignore the three where the self-confirmatory was null and subsequent replication!
+
+Normally replication is via meta-analysis within hypotheses, not across, so this estimate is likely not representative
+of how effective the practices are.
 :::
 
-## Equations
 
-| Markdown Syntax                    | Output                       |
-|:----------------------------------:|:-----------------------------|
-| `inline math $E = mc^{2}$`         | inline math $E = mc^{2}$     |
-| ```display math: $$E = mc^{2}$$``` | display math: $$E = mc^{2}$$ |
+## Unsurprising
+
++ Large sample sizes give more robust findings.
++ Replication requires clear and accurate protocols.
++ Useful to get clarification when protocols aren't clear.
++
 
 ::: {.notes}
-You can write equations if you need to.
-:::
+Its not surprising to me to find out that large sample sizes give more robust findings, this is fairly basic statistics
+as you are less prone to sampling bias when you have a larger sample size.
 
-## Embed Images
-
-[Figures](https://quarto.org/docs/authoring/figures.html) can be embeded using a URL and resized.
-
-```markdown
-![Relaxing in the mountains](https://live.staticflickr.com/65535/53144704609_c5e6fa8c77_k.jpg){width=700}
-```
-
-![Relaxing in the Julian Alps](https://live.staticflickr.com/65535/53144704609_c5e6fa8c77_k.jpg){width=700}
-
-::: {.notes}
-:::
-
-## Embed Images (*cont.*)
-
-You can also include images locally.^[Make sure to `git add` them otherwise they won't publish] and make them hyperlinks.
-
-```markdown
-![[OSC Sheffield](https://osc-international.com/osc-sheffield)](img/OSC_Sheffield.png){width=300}
-```
-
-![[OSC Sheffield](https://osc-international.com/osc-sheffield)](img/OSC_Sheffield.png){width=300}
-
-::: {.notes}
-:::
-
-## R code
-
-:::: {.columns}
-
-::: {.column width="50%"}
-Include [R code and output](https://quarto.org/docs/computations/r.html) with automatic referencing (see @fig-airquality2)
-
-```{r}
-#| label: fig-airquality
-#| fig-cap: "Temperature and ozone level."
-#| warning: false
-#| eval: false
-#| echo: true
-library(ggplot2)
-
-ggplot(airquality, aes(Temp, Ozone)) +
-  geom_point() +
-  geom_smooth(method = "loess")
-```
-
-:::
-::: {.column width="50%"}
-
-```{r}
-#| label: fig-airquality2
-#| fig-cap: "Temperature and ozone level."
-#| warning: false
-
-library(ggplot2)
-
-ggplot(airquality, aes(Temp, Ozone)) +
-  geom_point() +
-  geom_smooth(method = "loess")
-```
+Not overly surprising that replication requires clear and accurate protcols to be pre-registered either, researchers
+need to know what others have done in sufficient detail. Its good that clarification was available when required and
+this should be the norm, but how often do authors/researchers contact authors seeking clarification and not hear
+anything back?
 
 :::
 
-::::
+## Links
 
-::: {.notes}
-[R](https://www.r-project.org/) code can be embeded and executed to produce tables and figures.
-:::
-
-## Python code
-
-::: {.column width="50%"}
-Include [Python code and output](https://quarto.org/docs/computations/python.html) too
-
-```{.python}
-#| label: fig-polar
-#| fig-cap: "A line plot on a polar axis."
-#| warning: false
-#| eval: false
-#| echo: true
-import numpy as np
-import matplotlib.pyplot as plt
-
-r = np.arange(0, 2, 0.01)
-theta = 2 * np.pi * r
-fig, ax = plt.subplots(
-  subplot_kw = {'projection': 'polar'}
-)
-ax.plot(theta, r)
-ax.set_rticks([0.5, 1, 1.5, 2])
-ax.grid(True)
-plt.show()
-```
-
-:::
-::: {.column width="50%"}
-
-```{.python}
-#| label: fig-polar2
-#| fig-cap: "A line plot on a polar axis."
-#| warning: false
-#| eval: true
-#| echo: true
-import numpy as np
-import matplotlib.pyplot as plt
-
-r = np.arange(0, 2, 0.01)
-theta = 2 * np.pi * r
-fig, ax = plt.subplots(
-  subplot_kw = {'projection': 'polar'}
-)
-ax.plot(theta, r)
-ax.set_rticks([0.5, 1, 1.5, 2])
-ax.grid(True)
-plt.show()
-```
-
-:::
-::::
-
-::: {.notes}
-You can include [Python](https://www.python.org) code too
-:::
-
-## General code
-
-There are lots of options for showing, hiding, highlighting [code
-blocks](https://quarto.org/docs/presentations/revealjs/#code-blocks).
-
-```{.python code-line-numbers="6-8"}
-#| eval: true
-#| echo: true
-import numpy as np
-import matplotlib.pyplot as plt
-
-r = np.arange(0, 2, 0.01)
-theta = 2 * np.pi * r
-fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
-ax.plot(theta, r)
-ax.set_rticks([0.5, 1, 1.5, 2])
-ax.grid(True)
-plt.show()
-```
-
-## The Documentation is Good
-
-The official documentation is really good.
-
-+ [Get Started](https://quarto.org/docs/get-started/)
-+ [Markdown Basics](https://quarto.org/docs/authoring/markdown-basics.html)
-+ [Guide](https://quarto.org/docs/guide/) with many sections on [Presentations](https://quarto.org/docs/presentations/)
-  [Website](https://quarto.org/docs/websites/), [Books](https://quarto.org/docs/books/) and more.
-
-## Extensions
-
-:::: {.columns}
-
-::: {.column width="50%"}
-[Extensions](https://quarto.org/docs/extensions/) for themes and other functionality
-(press `c` whilst viewing these slides :wink: ).
-
-+ [Shortcode/Filter](https://quarto.org/docs/extensions/listing-filters.html)
-+ [Journal Articles](https://quarto.org/docs/extensions/listing-journals.html)
-+ [Custom Formats](https://quarto.org/docs/extensions/listing-formats.html)
-+ [**RevealJS**](https://quarto.org/docs/extensions/listing-revealjs.html)
-
-:::
-::: {.column width=50%}
-{{< qrcode <https://ns-rse.github.io/quarto-revealjs-template> qr2 width=400 height=400 >}}
-:::
-::::
++ High replicability of newly discovered social-behavioural findings is
+  achievable. [10.1038/s41562-023-01749-9](https://doi.org/10.1038/s41562-023-01749-9)
++ Causal claims about scientific rigor require rigorous causal evidence
+  [10.31234/osf.io/5u3kj](https://doi.org/10.31234/osf.io/5u3kj)
