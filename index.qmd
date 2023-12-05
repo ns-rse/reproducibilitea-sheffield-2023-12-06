@@ -1,4 +1,4 @@
- ---
+---
 title: "ReproducibiliTea Sheffield Journal Club 2023-12-06"
 # format: revealjs
 author:
