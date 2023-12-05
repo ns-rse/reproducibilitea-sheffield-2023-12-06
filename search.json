@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ReproducibiliTea Sheffield Journal Club 2023-12-06",
-    "section": "",
-    "text": "ns-rse.github.io/quarto-revealjs-template"
-  },
-  {
     "objectID": "index.html#scan-this",
     "href": "index.html#scan-this",
     "title": "ReproducibiliTea Sheffield Journal Club 2023-12-06",
-    "section": "",
-    "text": "ns-rse.github.io/quarto-revealjs-template"
+    "section": "Scan This!",
+    "text": "Scan This!\n\n\n    \nns-rse.github.io/quarto-revealjs-template"
   },
   {
     "objectID": "index.html#high-replicability-of-newly-discovered-social-behavioural-findings-is-achievable.-10.1038s41562-023-01749-9",
@@ -60,6 +53,6 @@
     "href": "index.html#links",
     "title": "ReproducibiliTea Sheffield Journal Club 2023-12-06",
     "section": "Links",
-    "text": "Links\n\nHigh replicability of newly discovered social-behavioural findings is achievable. 10.1038/s41562-023-01749-9\nCausal claims about scientific rigor require rigorous causal evidence 10.31234/osf.io/5u3kj"
+    "text": "Links\n\nHigh replicability of newly discovered social-behavioural findings is achievable. 10.1038/s41562-023-01749-9\nCausal claims about scientific rigor require rigorous causal evidence 10.31234/osf.io/5u3kj\n\n\n\nSlides : ns-rse.github.io/reproducibilitea-sheffield-2023-12-06"
   }
 ]
