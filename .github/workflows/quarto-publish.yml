@@ -24,6 +24,7 @@ jobs:
           quarto install --no-prompt extension jmbuhr/quarto-qrcode
           quarto install --no-prompt extension grantmcdermott/quarto-revealjs-clean
           quarto install --no-prompt extension ArthurData/quarto-confetti
+          quarto install --no-prompt extension davidwilby/openlinksinnewpage
 
       - name: Install Python and Dependencies
         uses: actions/setup-python@v4
