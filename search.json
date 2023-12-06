@@ -4,7 +4,7 @@
     "href": "index.html#scan-this",
     "title": "ReproducibiliTea Sheffield Journal Club 2023-12-06",
     "section": "Scan This!",
-    "text": "Scan This!\n\n\n    \nns-rse.github.io/quarto-revealjs-template"
+    "text": "Scan This!\n\n\n    \nns-rse.github.io/reproducibilitea-sheffield-2023-12-06"
   },
   {
     "objectID": "index.html#high-replicability-of-newly-discovered-social-behavioural-findings-is-achievable.-10.1038s41562-023-01749-9",
@@ -32,14 +32,14 @@
     "href": "index.html#good",
     "title": "ReproducibiliTea Sheffield Journal Club 2023-12-06",
     "section": "Good",
-    "text": "Good\n\nPilot studies pre-registered (procedure, hypothesis, analysis plan, exclusions) /before/ data collection.\nLarge sample size\nClear protocols produced for sharing"
+    "text": "Good\n\nPilot studies pre-registered (procedure, hypothesis, analysis plan, exclusions) /before/ data collection.\nLarge sample size\nClear protocols produced for sharing\nReplication population very similar to confirmatory - targeted."
   },
   {
     "objectID": "index.html#unusual",
     "href": "index.html#unusual",
     "title": "ReproducibiliTea Sheffield Journal Club 2023-12-06",
     "section": "Unusual",
-    "text": "Unusual\n\nNot all pilots proceeded to confirmation/replication (selection bias?)\nClear protocols still need clarification in many cases (only 14/48 29% remained independent)\nNull confirmatory that had significant results in confirmatory was counted as successful replication?!?!. Prediction, Redemption and Misreporting (Bak-Coleman & Devezer)\nReplication estimate of 86% is across all studies, normally meta-analysis is conducted within study to say whether it replicates. (Bak-Coleman & Devezer)\n\n\nThe paper states that there was a pilot phase for all of the studies, but not all pilots proceeded to the self-confirmatory or replication stage. This suggests there may be some selection bias in the studies that were used as a basis for estimating replication. I would have preferred to have seen a set of hypotheses (16 or more) randomised to each of the four centers.\nI also found it surprising that whilst protocols were pre-registered there was a high number of centers seeking additional information 34 out of 48 replications sought clarification with only 14 (29%) not seeking any. It was mostly UVA who refrained from seeking clarification. Does state that many were trivial but not always the case. Whether this was deliberate through a strict adherence to the meta-protocol or lack of detail/understanding on the behalf of others is unclear.\nConfirmatory tests that were null and subsequently reached significance in self/independent replication were counted as replication which is bizzare, I would have expected replication to be demonstrating the same result as the original effect size. Strangely they focus on the 13 self-confirmatory that were positive and then assess replication as being 90% in that subset, but ignore the three where the self-confirmatory was null and subsequent replication!\nNormally replication is via meta-analysis within hypotheses, not across, so this estimate is likely not representative of how effective the practices are."
+    "text": "Unusual\n\nNot all pilots proceeded to confirmation/replication (selection bias?)\nClear protocols still need clarification in many cases (only 14/48 29% remained independent)\nNull confirmatory that had significant results in confirmatory was counted as successful replication?!?!. (Bak-Coleman & Devezer)\nReplication estimate of 86% is across all studies, normally meta-analysis is conducted within study to say whether it replicates. (Bak-Coleman & Devezer)\nReplication population very similar to confirmatory - will effects generalise?\n\n\nThe paper states that there was a pilot phase for all of the studies, but not all pilots proceeded to the self-confirmatory or replication stage. This suggests there may be some selection bias in the studies that were used as a basis for estimating replication. I would have preferred to have seen a set of hypotheses (16 or more) randomised to each of the four centers.\nI also found it surprising that whilst protocols were pre-registered there was a high number of centers seeking additional information 34 out of 48 replications sought clarification with only 14 (29%) not seeking any. It was mostly UVA who refrained from seeking clarification. Does state that many were trivial but not always the case. Whether this was deliberate through a strict adherence to the meta-protocol or lack of detail/understanding on the behalf of others is unclear.\nConfirmatory tests that were null and subsequently reached significance in self/independent replication were counted as replication which is bizzare, I would have expected replication to be demonstrating the same result as the original effect size. Strangely they focus on the 13 self-confirmatory that were positive and then assess replication as being 90% in that subset, but ignore the three where the self-confirmatory was null and subsequent replication!\nNormally replication is via meta-analysis within hypotheses, not across, so this estimate is likely not representative of how effective the practices are."
   },
   {
     "objectID": "index.html#unsurprising",
@@ -49,10 +49,17 @@
     "text": "Unsurprising\n\nLarge sample sizes give more robust findings.\nReplication requires clear and accurate protocols.\nUseful to get clarification when protocols aren’t clear.\n\n\n\nIts not surprising to me to find out that large sample sizes give more robust findings, this is fairly basic statistics as you are less prone to sampling bias when you have a larger sample size.\nNot overly surprising that replication requires clear and accurate protcols to be pre-registered either, researchers need to know what others have done in sufficient detail. Its good that clarification was available when required and this should be the norm, but how often do authors/researchers contact authors seeking clarification and not hear anything back?"
   },
   {
+    "objectID": "index.html#other-thoughts",
+    "href": "index.html#other-thoughts",
+    "title": "ReproducibiliTea Sheffield Journal Club 2023-12-06",
+    "section": "Other thoughts",
+    "text": "Other thoughts\n\nFrequentist framework and reporting of p-values/confidence interval\nPerform meta-analysis within studies\nWould a Bayesian approach and meta-analysis give"
+  },
+  {
     "objectID": "index.html#links",
     "href": "index.html#links",
     "title": "ReproducibiliTea Sheffield Journal Club 2023-12-06",
     "section": "Links",
-    "text": "Links\n\nHigh replicability of newly discovered social-behavioural findings is achievable. 10.1038/s41562-023-01749-9\nCausal claims about scientific rigor require rigorous causal evidence 10.31234/osf.io/5u3kj\n\n\n\nSlides : ns-rse.github.io/reproducibilitea-sheffield-2023-12-06"
+    "text": "Links\n\nHigh replicability of newly discovered social-behavioural findings is achievable. 10.1038/s41562-023-01749-9\nCausal claims about scientific rigor require rigorous causal evidence 10.31234/osf.io/5u3kj\nWhy Most Published Research Findings Are False doi.org/10.1371/journal.pmed.1004085\nAn estimate of the science-wise false discovery rate and application to the top medical literature doi.org/10.1093/biostatistics/kxt007 (see also discussion and rejoinder in Biostatistics Vol 15(1))\n\n\n\nSlides : ns-rse.github.io/reproducibilitea-sheffield-2023-12-06"
   }
 ]
