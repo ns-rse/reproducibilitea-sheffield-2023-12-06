@@ -14,6 +14,7 @@ format:
     show-slide-number: speaker
     auto-stretch: false
     chalkboard: true
+    scrollable: true
     # embed-resources: true
     # standalone: true
 revealjs-plugins:
@@ -28,9 +29,9 @@ project:
 
 ## Scan This!
 
-{{< qrcode https://ns-rse.github.io/reproducibilitea-sheffield-2023-12-06https://ns-rse.github.io/quarto-revealjs-template qr1 width=400 height=400 >}}
+{{< qrcode https://ns-rse.github.io/reproducibilitea-sheffield-2023-12-06 qr1 width=400 height=400 >}}
 
-[ns-rse.github.io/quarto-revealjs-template](https://ns-rse.github.io/quarto-revealjs-template)
+[ns-rse.github.io/reproducibilitea-sheffield-2023-12-06](https://ns-rse.github.io/reproducibilitea-sheffield-2023-12-06)
 
 ## High replicability of newly discovered social-behavioural findings is achievable. [10.1038/s41562-023-01749-9](https://doi.org/10.1038/s41562-023-01749-9)
 
@@ -67,7 +68,8 @@ Slides can have columns and we can create unordered lists.
 ## Reults
 
 ![[Figure 1 : Effect size estimates and 95% CI from 16 new discoveries with four replications
-each.](https://www.nature.com/articles/s41562-023-01749-9/figures/1)](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41562-023-01749-9/MediaObjects/41562_2023_1749_Fig1_HTML.png?as=webp)
+each.](https://www.nature.com/articles/s41562-023-01749-9/figures/1)](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41562-023-01749-9/MediaObjects/41562_2023_1749_Fig1_HTML.png?as=webp){width=800
+height=550}
 
 
 ## Good
@@ -76,18 +78,17 @@ each.](https://www.nature.com/articles/s41562-023-01749-9/figures/1)](https://me
 1. Pilot studies pre-registered (procedure, hypothesis, analysis plan, exclusions) /before/ data collection.
 2. Large sample size
 3. Clear protocols produced for sharing
-
+4. Replication population very similar to confirmatory - targeted.
 
 ## Unusual
 
 1. Not all pilots proceeded to confirmation/replication (selection bias?)
 2. Clear protocols still need clarification in many cases (only 14/48 29% remained independent)
 3. Null confirmatory that had significant results in confirmatory was counted as successful
-   replication?!?!. _Prediction_, _Redemption_ and _Misreporting_ ([Bak-Coleman &
-   Devezer](https://europepmc.org/article/PPR/PPR763078))
+   replication?!?!. ([Bak-Coleman & Devezer](https://europepmc.org/article/PPR/PPR763078))
 4. Replication estimate of 86% is across all studies, normally meta-analysis is conducted within study to say whether it
    replicates.  ([Bak-Coleman & Devezer](https://europepmc.org/article/PPR/PPR763078))
-
+5. Replication population very similar to confirmatory - will effects generalise?
 
 
 ::: {.notes}
@@ -130,9 +131,20 @@ anything back?
 
 :::
 
+## Other thoughts
+
++ Frequentist framework and reporting of p-values/confidence interval
++ Perform meta-analysis within studies
++ Would a Bayesian approach and meta-analysis give
+
 ## Links
 
 + High replicability of newly discovered social-behavioural findings is
   achievable. [10.1038/s41562-023-01749-9](https://doi.org/10.1038/s41562-023-01749-9)
 + Causal claims about scientific rigor require rigorous causal evidence
   [10.31234/osf.io/5u3kj](https://doi.org/10.31234/osf.io/5u3kj)
++ Why Most Published Research Findings Are False [doi.org/10.1371/journal.pmed.1004085](
+  https://doi.org/10.1371/journal.pmed.1004085)
++ An estimate of the science-wise false discovery rate and application to the top medical literature
+  [doi.org/10.1093/biostatistics/kxt007](https://doi.org/10.1093/biostatistics/kxt007) (see also discussion and
+  rejoinder in [_Biostatistics_ Vol 15(1)](https://academic.oup.com/biostatistics/issue/15/1))
