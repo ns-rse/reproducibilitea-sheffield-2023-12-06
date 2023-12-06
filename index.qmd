@@ -59,10 +59,11 @@ This is the abstract for today's paper.
 + Study criteria...
   + Two-group between subject manipulation
   + One dependent variable
-  + Administered via computer online to adults in single 20 minutes
+  + Administered via computer online to adults in 20 minutes session
+  + Self-selecting volunteers signed-up to complete online surveys
 
 ::: {.notes}
-Slides can have columns and we can create unordered lists.
+
 :::
 
 ## Reults
@@ -79,6 +80,7 @@ height=550}
 2. Large sample size
 3. Clear protocols produced for sharing
 4. Replication population very similar to confirmatory - targeted.
+5. Open Science! All materials of individual studies appear to be available via [Open Science Framework](https://osf.io)
 
 ## Unusual
 
@@ -87,8 +89,7 @@ height=550}
 3. Null confirmatory that had significant results in confirmatory was counted as successful
    replication?!?!. ([Bak-Coleman & Devezer](https://europepmc.org/article/PPR/PPR763078))
 4. Replication estimate of 86% is across all studies, normally meta-analysis is conducted within study to say whether it
-   replicates.  ([Bak-Coleman & Devezer](https://europepmc.org/article/PPR/PPR763078)). More an investigation of False
-   Discovery Rate (FDR) ([Jager & Leek](https://academic.oup.com/biostatistics/article/15/1/1/244509))
+   replicates.
 5. Replication population very similar to confirmatory - will effects generalise?
 
 
@@ -110,7 +111,8 @@ effect size. Strangely they focus on the 13 self-confirmatory that were positive
 90% in that subset, but ignore the three where the self-confirmatory was null and subsequent replication!
 
 Normally replication is via meta-analysis within hypotheses, not across, so this estimate is likely not representative
-of how effective the practices are. Really this is more an estimate of the False Discovery Rate
+of how effective the practices are. Really this is more an estimate of the sensitivity (true positive rate) of science
+wide studies.
 :::
 
 
