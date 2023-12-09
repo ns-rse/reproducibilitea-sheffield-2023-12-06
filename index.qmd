@@ -25,6 +25,8 @@ project:
     port: 7864
     host: localhost
     watch-inputs: true
+filters:
+  - openlinksinnewpage
 ---
 
 ## Scan This!
